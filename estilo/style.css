@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+
+
+:root{
+   --cor1:#BDBBB7;
+   --cor2:#AEACA3;
+   --cor3:#D9DACC;
+   --cor4:#C5BAA7;
+   --cor5:#9C8867;
+   --fonte-padrao: arial, verdana, Helvetica, sans-serif;
+   --fonte-squada: "squada one", sans-serif;
+}
+
+*{
+ padding: 0px;
+ margin: 0px;
+}
+body{
+    background-image: linear-gradient(to bottom, var(--cor5), var(--cor4), var(--cor3));
+  font-family: var(--fonte-padrao);
+}
+header h1{
+  background-color: var(--cor4);
+  color: rgb(66, 63, 63);
+  font-family: var(--fonte-squada);
+  text-align: center;
+  font-size: 2.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+main{
+  min-height: 280px;
+  max-width: 800px;
+  padding-top: 250px;
+  padding-bottom: 315px;
+  margin: auto;
+
+}
+main div{
+    background-color:var(--cor5);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.281);
+    max-width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin: auto;
+    border-radius: 13px;
+    
+}
+main div > p{
+  margin: auto;
+  font-family: var(--fonte-padrao);
+  font-size: 1em;
+  width: 169px ;
+  height: 15px;
+  padding-bottom:3px;
+  padding-right: 10px;
+}
+#email{
+  font-family: var(--fonte-padrao);
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+.senha{
+  display: block;
+  margin: auto;
+  padding-right: 10px;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+button{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 90px;
+  font-size: 0.9em;
+  border-radius: 5px;
+  border-style: none;
+}
+button:hover{
+  background-color: var(--cor4);
+  color: white;
+}
+#inscrever{
+  color: white;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  padding-right: 5px;
+  margin-right: 142px;
+  width: 90px;
+  height: 19px;
+}
+#inscrever:hover{
+  color: var(--cor4);
+}
+a{
+  text-decoration: none;
+}
+footer{
+  background-color: var(--cor4);
+}
+footer > p{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     text-align: center;
+}
+
+
+
+
+
+
+
